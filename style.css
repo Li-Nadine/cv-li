@@ -3,7 +3,7 @@
 *,
 *:before,
 *:after {
-    box-sizing: border-box red;
+    box-sizing: border-box;
 }
 
 body {
@@ -28,11 +28,11 @@ h6 {
 .header {
     padding: 48px 20px;
     text-align: center;
-    background-color: rgb(84, 240, 240);
+    background-color: rgb(182, 248, 248);
 }
 
 .main {
-    padding: 16px;
+    padding: 22px;
     max-width: 800px;
     margin: 0 auto;
 }
