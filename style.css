@@ -1,7 +1,9 @@
 /*allgemein*/
 
-* {
-    box-sizing: border-box;
+*,
+*:before,
+*:after {
+    box-sizing: border-box red;
 }
 
 body {
@@ -26,7 +28,7 @@ h6 {
 .header {
     padding: 48px 20px;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(84, 240, 240);
 }
 
 .main {
