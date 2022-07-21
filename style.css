@@ -1,26 +1,21 @@
 /*allgemein*/
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    background-color: rgba(252, 184, 212, 0.733);
 }
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(25, 31, 31);
 }
 
 /*spezifisch*/
@@ -29,10 +24,14 @@ h6 {
     padding: 48px 20px;
     text-align: center;
     background-color: rgb(182, 248, 248);
+    border-bottom: 3px #000 solid;
 }
 
 .main {
     padding: 22px;
     max-width: 800px;
     margin: 0 auto;
+    background-color: cornsilk;
+    border-left: 2px solid #000;
+     border-right: 2px solid #000;
 }
