@@ -58,3 +58,14 @@ a:active {
     margin: 10px;
 }
 
+article + article {
+    border-top: solid 2px;
+}
+
+.main > article {
+    margin-top: 40px;
+}
+
+.main > article:first-child {
+    margin-top: 0px;
+}
