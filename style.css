@@ -106,3 +106,7 @@ article + article {
   border-top: none;
 }
 */
+
+.beruf::after { content:'🤩';}
+
+*::selection { background-color: rgb(160, 101, 214); color:ivory;}
