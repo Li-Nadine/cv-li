@@ -9,12 +9,12 @@ body {
     background-color: rgba(252, 184, 212, 0.733);
 }
 
-* {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; font-family: 'Heebo', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-family: 'Heebo', sans-serif;
     color:rgb(25, 31, 31);
 }
 
@@ -54,7 +54,7 @@ a:active {
     background-color:gold;
 }
 
-.navlinks a {
+.navlinks {
     margin: 10px;
     background-color: rgb(239, 240, 231);
     padding: 4px
