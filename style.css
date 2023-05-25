@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+  font-family: inherit;
+}
+
 body {
     margin: 0;
     background-color: rgba(252, 184, 212, 0.733);
@@ -63,7 +67,7 @@ a:active {
 article + article {
     border-top: solid 2px;
 }
-
+ 
 .main > article {
     margin-top: 40px;
 }
@@ -110,3 +114,6 @@ article + article {
 .beruf::after { content:'🤩';}
 
 *::selection { background-color: rgb(160, 101, 214); color:ivory;}
+
+/* --------------
+*/
