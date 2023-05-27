@@ -22,27 +22,30 @@ h1, h2, h3, h4, h5, h6 {
     color:rgb(25, 31, 31);
 }
 
+
 /*spezifisch*/
 
 .header {
-    padding: 48px 20px;
+    padding: 45px 20px;
     text-align: center;
     background-color: rgb(182, 248, 248);
     border-bottom: 3px #000 solid;
 }
 
 .main {
-    padding: 22px;
+    padding: 22px 30px 30px;
     max-width: 800px;
     margin: 0 auto;
     background-color: cornsilk;
     border-left: 2px solid #000;
-     border-right: 2px solid #000;
+    border-right: 2px solid #000;
+
 }
 
 
 
-/*pseudo-klassen meine lösung*/
+
+/*pseudo-klassen und klassen meine lösung*/
 
 a:link {
     color:rgb(68, 0, 255);
@@ -60,10 +63,17 @@ a:active {
     background-color:gold;
 }
 
+
 .navlinks {
     margin: 10px;
     background-color: rgb(239, 240, 231);
-    padding: 4px
+    padding: 10px;
+    border: solid; 
+    border-color: black;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-top: 4px;
+  
 }
 
 article + article {
@@ -84,6 +94,28 @@ article + article {
 
 .erfahrungen-subtitel {
   display: inline-block;
+}
+
+.hire-badge {
+  position: absolute;
+  right: 26px;
+  top: 26px;
+  background-color: rgba(252, 184, 212, 0.733);
+  padding: 14px;
+  border: solid black;
+  border-radius: 10px;
+  color: #000;
+  font-size: 16px;
+ 
+}
+
+.beruf {
+  margin-bottom: 40px;
+}
+
+.article-heading {
+  position: relative;
+  left: -16px;
 }
 
 /*
