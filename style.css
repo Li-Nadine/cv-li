@@ -169,6 +169,7 @@ article + article {
   .hire-badge {
     display: none;
   }
+
   .head-navigation {
     display: none;
   }
@@ -177,15 +178,24 @@ article + article {
   html {
     font-size: 20px;
   }
-
 }
 
-@media screen and min-width: 992px {
+/*~~~ ______LIchen, FRAG MAL JEMANDEN WO HIER DER FAIL IST_________
+
+@media screen and (min-width: 768px) {
+  main > *+* {
+  margin-top: 35rem;}
+}
+______~~~*/
+
+@media screen and (min-width: 992px) {
   html {
-    font-size: 30px;
+    font-size: 22px;
   }
+}  
+
+@media screen and (min-width: 992px) {
   .hire-badge {
     position: fixed;
   }
-
 }
