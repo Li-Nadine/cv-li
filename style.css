@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main {
     padding: 22px 35px;
-    max-width: 800px;
+    max-width: 70ch;
     margin: 0 auto;
     background-color: cornsilk;
     border-left: 0.2rem solid #000;
@@ -43,7 +43,9 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-
+.heading-group {
+  font-size: 1.25rem;
+}
 
 
 /*pseudo-klassen und klassen meine lösung*/
@@ -111,7 +113,7 @@ article + article {
 }
 
 .beruf {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.75rem;
 }
 
 .article-heading {
@@ -160,5 +162,30 @@ article + article {
 
 *::selection { background-color: rgb(160, 101, 214); color:ivory;}
 
-/* --------------
+/* --------------media query und breakpoint
 */
+
+@media print {
+  .hire-badge {
+    display: none;
+  }
+  .head-navigation {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and min-width: 992px {
+  html {
+    font-size: 30px;
+  }
+  .hire-badge {
+    position: fixed;
+  }
+
+}
