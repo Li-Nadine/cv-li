@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 .header {
     padding: 3rem 1.5rem;
     text-align: center;
-    background-color: rgb(182, 248, 248);
+    background-image: linear-gradient(180deg, rgb(124, 248, 248), rgba(74, 4, 107, 0.596));
     border-bottom: 0.2rem #000 solid;
 }
 
@@ -48,6 +48,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.footer {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background-image: linear-gradient(180deg, rgba(74, 4, 107, 0.596), rgb(124, 248, 248));
+  border-top: 0.2rem #000 solid;
+}
+
 /*pseudo-klassen und klassen meine lösung*/
 
 a:link {
@@ -55,11 +62,11 @@ a:link {
 }
 
 a:visited {
-    color:rgb(141, 26, 199);
+    color:rgb(41, 187, 73);
 }
 
 a:hover {
-    background-color: rgb(144, 255, 116);
+    background-color: rgb(124, 248, 248);
 }
 
 a:active {
@@ -103,11 +110,11 @@ article + article {
   position: absolute;
   right: 1.5rem;
   top: 1.5rem;
-  background-color: rgba(252, 184, 212, 0.733);
+  background-color:hotpink;
   padding: 0.8rem;
   border: solid black;
   border-radius: 0.4rem;
-  color: #000;
+  color: #000000;
   font-size: 1.25rem;
  
 }
